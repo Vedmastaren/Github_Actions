@@ -16,8 +16,3 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-
-      # Testar att lägga till ett error
-      - name: Error testing
-        run: |
-          non_existent_command
